@@ -1,0 +1,19 @@
+{
+  "collectionName": "components_blog_comp_blogs",
+  "info": {
+    "displayName": "blogs",
+    "icon": "calendar"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "content": {
+      "type": "richtext"
+    },
+    "duration": {
+      "type": "string"
+    }
+  }
+}

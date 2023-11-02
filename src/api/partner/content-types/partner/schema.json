@@ -1,0 +1,150 @@
+{
+  "kind": "collectionType",
+  "collectionName": "partners",
+  "info": {
+    "singularName": "partner",
+    "pluralName": "partners",
+    "displayName": "partner",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "content": {
+      "type": "richtext"
+    },
+    "partnerimg": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "seccontent": {
+      "type": "richtext"
+    },
+    "thirdtitle": {
+      "type": "string"
+    },
+    "thirdsubtitle": {
+      "type": "string"
+    },
+    "thirdpoint1": {
+      "type": "richtext"
+    },
+    "thirdpoint2": {
+      "type": "richtext"
+    },
+    "thirdpoint3": {
+      "type": "richtext"
+    },
+    "thirdpoint4": {
+      "type": "richtext"
+    },
+    "thirdpoint5": {
+      "type": "richtext"
+    },
+    "mqtitle": {
+      "type": "string"
+    },
+    "mqsubtitle": {
+      "type": "string"
+    },
+    "mqlogo1": {
+      "type": "media",
+      "multiple": true,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "aboutcard": {
+      "displayName": "partnercard",
+      "type": "component",
+      "repeatable": true,
+      "component": "footercard.partnercard"
+    },
+    "partnernow": {
+      "type": "text"
+    },
+    "footerpartnerimg": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "footertitle": {
+      "type": "text"
+    },
+    "footercontent": {
+      "type": "richtext"
+    },
+    "facebook": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": false
+    },
+    "twitter": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": false
+    },
+    "linkedin": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": false
+    },
+    "medium": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": false
+    },
+    "footervideo": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": false
+    }
+  }
+}

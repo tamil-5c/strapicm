@@ -1,0 +1,152 @@
+{
+  "kind": "collectionType",
+  "collectionName": "abouts",
+  "info": {
+    "singularName": "about",
+    "pluralName": "abouts",
+    "displayName": "about",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "content": {
+      "type": "richtext"
+    },
+    "abouthomeimg": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "sectitle": {
+      "type": "string"
+    },
+    "secsubtitle": {
+      "type": "string"
+    },
+    "secpara": {
+      "type": "richtext"
+    },
+    "secimg": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "leadertitle": {
+      "type": "string"
+    },
+    "leadershipcards": {
+      "displayName": "aboutcard",
+      "type": "component",
+      "repeatable": true,
+      "component": "cardabout.aboutcard"
+    },
+    "advtext": {
+      "type": "string"
+    },
+    "advisiorcard": {
+      "displayName": "advisorcards",
+      "type": "component",
+      "repeatable": true,
+      "component": "cardsadv.advisorcards"
+    },
+    "partners": {
+      "type": "string"
+    },
+    "partnersmq": {
+      "type": "media",
+      "multiple": true,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "partnerslogo": {
+      "type": "media",
+      "multiple": true,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "footertitle": {
+      "type": "string"
+    },
+    "footercontent": {
+      "type": "richtext"
+    },
+    "socialplatform": {
+      "type": "media",
+      "multiple": true,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "footervideo": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "leadershipcardsimg": {
+      "type": "media",
+      "multiple": true,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "advisorcardimg": {
+      "type": "media",
+      "multiple": true,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "investor": {
+      "type": "string"
+    },
+    "getInTouch": {
+      "type": "string"
+    }
+  }
+}

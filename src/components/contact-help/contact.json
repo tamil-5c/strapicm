@@ -1,0 +1,12 @@
+{
+  "collectionName": "components_contact_help_contacts",
+  "info": {
+    "displayName": "contact"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    }
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "collectionName": "components_newscard1_newscard1s",
+  "info": {
+    "displayName": "newscard1",
+    "icon": "apps",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "date": {
+      "type": "date"
+    },
+    "newscontent": {
+      "type": "richtext"
+    }
+  }
+}

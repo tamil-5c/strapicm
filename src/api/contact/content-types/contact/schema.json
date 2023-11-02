@@ -1,0 +1,110 @@
+{
+  "kind": "collectionType",
+  "collectionName": "contacts",
+  "info": {
+    "singularName": "contact",
+    "pluralName": "contacts",
+    "displayName": "contact",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "titlecontent": {
+      "type": "richtext"
+    },
+    "sectitle": {
+      "type": "string"
+    },
+    "secsubtitle": {
+      "type": "text"
+    },
+    "help": {
+      "displayName": "contact",
+      "type": "component",
+      "repeatable": true,
+      "component": "contact-help.contact"
+    },
+    "helpimg": {
+      "type": "media",
+      "multiple": true,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "loctitle": {
+      "type": "string"
+    },
+    "locsubtitle": {
+      "type": "string"
+    },
+    "locations": {
+      "displayName": "locations",
+      "type": "component",
+      "repeatable": true,
+      "component": "locate.locations"
+    },
+    "footertitle": {
+      "type": "string"
+    },
+    "footercontent": {
+      "type": "text"
+    },
+    "socialplatform": {
+      "type": "media",
+      "multiple": true,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "footervideo": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "contactimg": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "locationlogo": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "getintouch": {
+      "type": "string"
+    }
+  }
+}

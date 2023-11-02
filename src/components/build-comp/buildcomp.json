@@ -1,0 +1,16 @@
+{
+  "collectionName": "components_build_comp_buildcomps",
+  "info": {
+    "displayName": "buildcomp",
+    "icon": "filter"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "content": {
+      "type": "richtext"
+    }
+  }
+}

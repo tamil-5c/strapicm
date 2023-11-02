@@ -1,0 +1,351 @@
+{
+  "kind": "collectionType",
+  "collectionName": "homepages",
+  "info": {
+    "singularName": "homepage",
+    "pluralName": "homepages",
+    "displayName": "homepage",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "unseentitle": {
+      "type": "string"
+    },
+    "unseensubtitle": {
+      "type": "text"
+    },
+    "unseencontent": {
+      "type": "richtext"
+    },
+    "unseenimg": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "abouttitle": {
+      "type": "string"
+    },
+    "aboutcontent": {
+      "type": "richtext"
+    },
+    "aboutimg": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "thirdsectitle": {
+      "type": "text"
+    },
+    "thirdsecsubtitle": {
+      "type": "text"
+    },
+    "thirdseccontent": {
+      "type": "richtext"
+    },
+    "thirdlogo1": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "logo1title": {
+      "type": "text"
+    },
+    "logo2title": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "logo2content": {
+      "type": "richtext"
+    },
+    "logo3": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "logo3content": {
+      "type": "richtext"
+    },
+    "logo4title": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "logo4content": {
+      "type": "string"
+    },
+    "thirdsecimg": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "rainbowtext": {
+      "type": "string"
+    },
+    "fourthtitle": {
+      "type": "string"
+    },
+    "fourthrainbowtext": {
+      "type": "string"
+    },
+    "fourthsubtitle": {
+      "type": "string"
+    },
+    "fourthcard1title": {
+      "type": "string"
+    },
+    "fourthcard1content": {
+      "type": "string"
+    },
+    "fourthcard2title": {
+      "type": "string"
+    },
+    "fourthcard2content": {
+      "type": "string"
+    },
+    "fourthcard3title": {
+      "type": "string"
+    },
+    "fourthcard3content": {
+      "type": "string"
+    },
+    "fourthcard4title": {
+      "type": "string"
+    },
+    "fourthcard4content": {
+      "type": "string"
+    },
+    "sateliteimg": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "fifthtitle": {
+      "type": "string"
+    },
+    "fifthsubtitle": {
+      "type": "text"
+    },
+    "fifthcontent": {
+      "type": "richtext"
+    },
+    "fifthimg": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "sixthtitle": {
+      "type": "string"
+    },
+    "sixthsubtitle": {
+      "type": "text"
+    },
+    "sixthcontent": {
+      "type": "richtext"
+    },
+    "sixthimg": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "quote": {
+      "type": "text"
+    },
+    "author": {
+      "type": "string"
+    },
+    "quotecontent": {
+      "type": "richtext"
+    },
+    "quoteimg": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "newstitle": {
+      "type": "string"
+    },
+    "newssubtitle": {
+      "type": "text"
+    },
+    "newscards": {
+      "displayName": "newscard1",
+      "type": "component",
+      "repeatable": true,
+      "component": "newscard1.newscard1"
+    },
+    "footertitle": {
+      "type": "text"
+    },
+    "footerleftcontent": {
+      "type": "richtext"
+    },
+    "footerlogo1": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "footerlogo2": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "footerlogo3": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "footerlogo4": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "footervideo": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "headervideo": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "newslogo": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": true
+    },
+    "moreAboutUs": {
+      "type": "string"
+    },
+    "LearnMore": {
+      "type": "string"
+    },
+    "moreAboutTechnology": {
+      "type": "string"
+    },
+    "askUs": {
+      "type": "string"
+    },
+    "futureWith": {
+      "type": "string"
+    },
+    "aboutMedia": {
+      "type": "string"
+    },
+    "getInTouch": {
+      "type": "string"
+    }
+  }
+}

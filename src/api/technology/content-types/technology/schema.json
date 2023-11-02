@@ -1,0 +1,218 @@
+{
+  "kind": "collectionType",
+  "collectionName": "technologies",
+  "info": {
+    "singularName": "technology",
+    "pluralName": "technologies",
+    "displayName": "technology",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "content": {
+      "type": "richtext"
+    },
+    "titleimg": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "secondtitle": {
+      "type": "string"
+    },
+    "secondsubtitle": {
+      "type": "string"
+    },
+    "secondcontent": {
+      "type": "richtext"
+    },
+    "secondimg": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "secondpoint1": {
+      "type": "richtext"
+    },
+    "secondpoint2": {
+      "type": "richtext"
+    },
+    "secondpointsimg": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "rgbtitle": {
+      "type": "string"
+    },
+    "rgbsubtitle": {
+      "type": "string"
+    },
+    "rgbimg": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "thirdtitle": {
+      "type": "string"
+    },
+    "thirdsubtitle": {
+      "type": "string"
+    },
+    "thirdcontent": {
+      "type": "richtext"
+    },
+    "thirdimg": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "thirdcard1title": {
+      "type": "text"
+    },
+    "thirdcard1content": {
+      "type": "text"
+    },
+    "thirdcard2title": {
+      "type": "text"
+    },
+    "thirdcard2content": {
+      "type": "text"
+    },
+    "thirdcard3title": {
+      "type": "string"
+    },
+    "thirdcard3content": {
+      "type": "string"
+    },
+    "fourthtitle": {
+      "type": "string"
+    },
+    "fourthsubtitle": {
+      "type": "string"
+    },
+    "fourthcontent": {
+      "type": "richtext"
+    },
+    "fourthpoint1": {
+      "type": "richtext"
+    },
+    "fourthpoint2": {
+      "type": "richtext"
+    },
+    "fourthpoint3": {
+      "type": "richtext"
+    },
+    "fourthimg": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "footertitle": {
+      "type": "text"
+    },
+    "footercontent": {
+      "type": "richtext"
+    },
+    "facebook": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "twitter": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "linkedin": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "medium": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "footervideo": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "git": {
+      "type": "string"
+    }
+  }
+}

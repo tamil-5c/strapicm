@@ -1,0 +1,99 @@
+{
+  "kind": "collectionType",
+  "collectionName": "clinicians",
+  "info": {
+    "singularName": "clinician",
+    "pluralName": "clinicians",
+    "displayName": "clinician",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "top": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "bottom": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "center": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "contentTitle": {
+      "type": "text"
+    },
+    "point1": {
+      "type": "richtext"
+    },
+    "point2": {
+      "type": "richtext"
+    },
+    "point3": {
+      "type": "richtext"
+    },
+    "point4": {
+      "type": "richtext"
+    },
+    "point5": {
+      "type": "richtext"
+    },
+    "footertitle": {
+      "type": "text"
+    },
+    "footercontent": {
+      "type": "richtext"
+    },
+    "socialPlatforms": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": true
+    },
+    "footervideo": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": false
+    },
+    "git": {
+      "type": "string"
+    }
+  }
+}

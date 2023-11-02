@@ -1,0 +1,16 @@
+{
+  "collectionName": "components_locate_locations",
+  "info": {
+    "displayName": "locations",
+    "icon": "crop"
+  },
+  "options": {},
+  "attributes": {
+    "country": {
+      "type": "string"
+    },
+    "address": {
+      "type": "richtext"
+    }
+  }
+}

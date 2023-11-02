@@ -1,0 +1,101 @@
+{
+  "kind": "collectionType",
+  "collectionName": "radiologists",
+  "info": {
+    "singularName": "radiologist",
+    "pluralName": "radiologists",
+    "displayName": "radiologist",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "top": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "bottom": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "center": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "contentTitle": {
+      "type": "text"
+    },
+    "point1": {
+      "type": "richtext"
+    },
+    "point2": {
+      "type": "richtext"
+    },
+    "point3": {
+      "type": "richtext"
+    },
+    "point4": {
+      "type": "richtext"
+    },
+    "point5": {
+      "type": "richtext"
+    },
+    "footertitle": {
+      "type": "text"
+    },
+    "footercontent": {
+      "type": "richtext"
+    },
+    "socialPlatforms": {
+      "type": "media",
+      "multiple": true,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "footervideo": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "git": {
+      "type": "string"
+    }
+  }
+}

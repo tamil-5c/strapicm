@@ -1,0 +1,19 @@
+{
+  "collectionName": "components_open_engineerings",
+  "info": {
+    "displayName": "engineering",
+    "icon": "brush"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "role": {
+      "type": "string"
+    },
+    "location": {
+      "type": "string"
+    }
+  }
+}

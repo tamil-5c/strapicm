@@ -1,0 +1,17 @@
+{
+  "collectionName": "components_cardsadv_advisorcards",
+  "info": {
+    "displayName": "advisorcards",
+    "icon": "folder",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "firstname": {
+      "type": "string"
+    },
+    "lastname": {
+      "type": "string"
+    }
+  }
+}

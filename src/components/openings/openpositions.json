@@ -1,0 +1,46 @@
+{
+  "collectionName": "components_openings_openpositions",
+  "info": {
+    "displayName": "openpositions",
+    "icon": "cursor"
+  },
+  "options": {},
+  "attributes": {
+    "engineering": {
+      "displayName": "engineering",
+      "type": "component",
+      "repeatable": true,
+      "component": "open.engineering"
+    },
+    "product": {
+      "type": "component",
+      "repeatable": true,
+      "component": "open.engineering"
+    },
+    "research": {
+      "type": "component",
+      "repeatable": true,
+      "component": "open.engineering"
+    },
+    "productions": {
+      "type": "component",
+      "repeatable": true,
+      "component": "open.engineering"
+    },
+    "planning": {
+      "type": "component",
+      "repeatable": true,
+      "component": "open.engineering"
+    },
+    "softwaresystems": {
+      "type": "component",
+      "repeatable": true,
+      "component": "open.engineering"
+    },
+    "solutions": {
+      "type": "component",
+      "repeatable": true,
+      "component": "open.engineering"
+    }
+  }
+}

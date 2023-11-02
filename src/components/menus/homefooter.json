@@ -1,0 +1,13 @@
+{
+  "collectionName": "components_menus_homefooters",
+  "info": {
+    "displayName": "homefooter",
+    "icon": "bulletList"
+  },
+  "options": {},
+  "attributes": {
+    "items": {
+      "type": "string"
+    }
+  }
+}
